@@ -1,0 +1,436 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+    color: #717171
+}
+
+/* Estilo do Topo */
+
+.topo {
+    background: white;
+    color: #717171;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 60px;
+    position: relative;
+    top: 30px;
+    margin: 0 auto;
+}
+
+.topo-logomarca {
+    padding: 20px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topo-menu {
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.icone-topo-menu {
+    display: none;
+}
+
+.topo-menu a {
+    text-decoration: none;
+    color: #717171;
+    margin: 0 20px;
+    padding: 10px 15px 10px 15px;
+}
+
+.topo-menu a:hover {
+    background-color: #793258;
+    color: white;
+}
+
+/* Estilo do Banner e Texto */
+
+.conteudo {
+    width: 100%;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    margin-top: -60px;
+    margin-bottom: 40px;
+    background-color: #f2f2f2;
+    width: 100%;
+}
+
+.banner-img, .imagem-banner {
+    width: 100%;
+}
+
+.banner-texto {
+    width: 90%;
+    align-self: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* Quartoss principais */
+
+.quarto-principlal {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.quartos-titulo {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0 40px 0;
+}
+
+.quartos-container-de-itens {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.imagem-quarto-principal {
+    display: flex;
+    width: 550px;
+    height: 310px;
+}
+
+.container-legenda-quarto-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    height: 76px;
+    margin-bottom: 20px;
+}
+
+.legenda-quarto-principal p {
+    margin-left: 20px;
+    padding: 2px;
+}
+
+.legenda-quarto-principal p:first-child {
+    font-weight: 700;
+    font-size: 19px;
+    margin-top: 10px;
+}
+
+.legenda-quarto-principal p:nth-child(2) {
+    font-size: 15px;
+}
+
+.ver-quarto-principal {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #793258;
+    color: white;
+    cursor: pointer;
+}
+
+.ver-quarto-principal svg {
+    width: 60px;
+    height: 30px;
+    padding: 5px;
+    fill: white;
+}
+
+/* Quartos Secundários */
+
+.quarto-secundario {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    background-color: #f2f2f2;
+}
+
+.container-individual-quarto-secundario {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.imagem-quarto-secundario {
+    display: flex;
+    width: 96%;
+    height: 236px;
+    margin: 0 auto;
+}
+
+.container-legenda-quarto-secundario {
+    display: flex;
+    justify-content: space-between;
+    width: 96%;
+    height: 76px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.legenda-quarto-secundario p {
+    margin-left: 20px;
+    padding: 2px;
+}
+
+.legenda-quarto-secundario p:first-child {
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.legenda-quarto-secundario p:nth-child(2) {
+    font-size: 14px;
+}
+
+.ver-quarto-secundario {
+    background-color: #793258;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ver-quarto-secundario svg {
+    width: 60px;
+    height: 30px;
+    padding: 5px;
+    fill: white;
+}
+
+/* Nossos Serviços */
+
+.nossos-servicos {
+    display: flex;
+    flex-direction: column;
+}
+
+.nossos-servicos-titulo {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0 20px 0;
+}
+
+.nossos-servicos-container-de-itens {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nossos-servicos-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.imagem-nossos-servicos {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.container-legenda-nossos-servicos {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    text-align: center;
+}
+
+.legenda-nossos-servicos {
+    margin-top: 5px;
+}
+
+.legenda-nossos-servicos p:first-child {
+    font-weight: 700;
+    padding: 2px;
+    font-size: 18px;
+}
+
+.legenda-nossos-servicos p:nth-child(2) {
+    font-size: 14px;
+    padding: 2px;
+    margin-bottom: 5px 0 15px;
+}
+
+.nossos-servicos-saiba-mais {
+    background-color: #793258;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    width: 50%;
+    margin: 15px auto;
+}
+
+/* Rodapé */
+
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    background: #39192a;
+    padding: 30px 0 30px 0px;
+    margin-top: 40px;
+}
+
+.rodape-contato {
+    width: 250px;
+}
+
+.rodape-contato h3, .rodape-contato ul li {
+    color: white;
+    padding: 1px;
+}
+
+.rodape ul {
+    list-style: none;
+    line-height: 25px;
+    font-size: 13px;
+}
+
+.rodape-sobre h3, .rodape-sobre p {
+    color: white;
+    padding: 1px;
+}
+
+.rodape-sobre p {
+    width: 250px;
+    line-height: 25px;
+    font-size: 13px;
+}
+
+/* Media Queries */
+
+@media (min-width:769px) and (max-width: 1055px) {
+    .topo-menu {
+        display: none;
+    }
+    .icone-topo-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 14px 0 15px 15px;
+        margin-right: 30px;
+        cursor: pointer;
+    }
+    .icone-topo-menu span {
+        background-color: #717171;
+        width: 30px;
+        height: 4px;
+    }
+    .imagem-quarto-principal {
+        width: 385px;
+        height: 222px;
+    }
+    .container-legenda-quarto-principal {
+        width: 385px;
+    }
+    .quarto-secundario {
+        flex-flow: wrap;
+    }
+    .imagem-quarto-secundario {
+        width: 96%;
+        height: 236px;
+        margin: 0 auto;
+    }
+    .legenda-quarto-secundario p:first-child {
+        font-size: 17px;
+        margin-top: 5px;
+        padding: 1px;
+        margin-left: 15px;
+    }
+    .legenda-quarto-secundario p:nth-child(2) {
+        font-size: 12px;
+        margin-left: 15px;
+        padding: 1px;
+    }
+    .nossos-servicos-container-de-itens {
+        flex-flow: row wrap;
+    }
+}
+
+@media (min-width:300px) and (max-width: 768px) {
+    .topo {
+        width: 90%;
+        height: 60px;
+        position: relative;
+        top: 10px;
+    }
+    .topo-menu {
+        display: none;
+    }
+    .icone-topo-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 14px 0 15px 15px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    .icone-topo-menu span {
+        background-color: #717171;
+        width: 30px;
+        height: 4px;
+    }
+    .topo-logomarca {
+        padding: 20px;
+        margin-left: 5px;
+    }
+    .quarto-principlal {
+        margin-bottom: 0;
+    }
+    .quartos-container-de-itens {
+        display: flex;
+        flex-direction: column;
+    }
+    .container-legenda-quarto-principal {
+        margin-bottom: 30px;
+        width: 96%;
+        margin: 0 auto 20px;
+    }
+    .imagem-quarto-principal {
+        width: 96%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .container-legenda-quarto-principal {
+        width: 96%;
+    }
+    .quarto-secundario {
+        flex-flow: wrap;
+    }
+    .imagem-quarto-secundario {
+        width: 380px;
+        height: 236px;
+    }
+    .container-individual-quarto-secundario {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        align-self: center;
+    }
+    .imagem-quarto-secundario {
+        width: 96%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .nossos-servicos-container-de-itens {
+        flex-flow: wrap;
+    }
+    .rodape {
+        flex-direction: column;
+    }
+    .rodape-contato, .rodape-sobre {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .rodape-sobre p {
+        margin: 0 auto;
+    }
+}
